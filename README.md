@@ -15,8 +15,13 @@ All the README.m files in each Chapter have been automatically created
 by FSDA function [[m2ipynb](http://rosa.unipr.it/FSDA/m2ipynb.html)]   
 
 
-# Table of Contents and Code Notebooks <a href="https://www.youtube.com/watch?v=kdJGzdDx4fg"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
+# Table of Contents and Code Notebooks 
+
+A YouTuBe video which summarizing the contents of the book can be found at the link below
+<a href="https://www.youtube.com/watch?v=kdJGzdDx4fg"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 <br>
+Additional YouTube videos can be found inside the individual chapters.
+
 
 1. Introduction and the Grand Plan  [[open dir](cap1/README.md)]  
 2. Introduction to M-Estimation for Univariate Samples[[open dir](cap2/README.md)]  
