@@ -17,8 +17,9 @@ by FSDA function [[m2ipynb](http://rosa.unipr.it/FSDA/m2ipynb.html)]
 
 # Table of Contents and Code Notebooks 
 
-A YouTuBe video which summarizing the contents of the book can be found at the link below
-<a href="https://www.youtube.com/watch?v=kdJGzdDx4fg"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
+A YouTube video summarizing the contents of the book can be found at the link below
+<br>
+<a href="https://www.youtube.com/watch?v=kdJGzdDx4fg"> Summary <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 <br>
 Additional YouTube videos can be found inside the individual chapters.
 
