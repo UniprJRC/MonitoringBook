@@ -207,7 +207,7 @@ end
 %% Create Figure 2.23
 % Difference between point mass and shift contamination
 % 200 samples of 200 observations generated from $\mathcal{N}(5,2)$. 30 per
-% cent contamination.  Estimates of scale as in Figure~\ref{cap2:rhobdp0}.
+% cent contamination.  Estimates of location as in Figure~\ref{cap2:rhobdp0}.
 % Ordering based on the estimates of location using Tukey's biweight. Upper
 % panel; shift contamination with a value of 10. Lower panel; point mass
 % contamination of 10} \label{cap2:rhoPMLS}
