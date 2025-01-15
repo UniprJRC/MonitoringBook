@@ -90,7 +90,7 @@ rhoHYPk5=rhoHYPk5/maxrhoHYPk5;
 plot(x,rhoHYPk5,'color','b','LineStyle','-','LineWidth',lw)
 text(1.2,0.2,['$k=$' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
 
-ktuning=3; % with k=3 bdp= 0.4767 eff=03324
+ktuning=3; % with k=3 bdp= 0.4767 eff=0.3324
 % [bdp,eff]=HYPc(ctuning,1,'k',ktuning)
 rhoHYPk3=HYPrho(x,[ctuning,ktuning]);
 maxrhoHYPk3=max(rhoHYPk3);

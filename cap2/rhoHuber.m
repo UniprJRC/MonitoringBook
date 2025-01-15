@@ -4,7 +4,7 @@
 
 %% Plot Huber rho function. Figure 2.5
 close all
-prin=1;
+prin=0;
 x=-3:0.001:3;
 c=1.345;
 rhoHU=HUrho(x,c);
