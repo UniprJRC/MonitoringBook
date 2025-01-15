@@ -21,7 +21,7 @@ rhoHYPk5=HYPrho(x,[ctuning,ktuning]);
 maxrhoHYPk5=max(rhoHYPk5);
 rhoHYPk5=rhoHYPk5/maxrhoHYPk5;
 plot(x,rhoHYPk5,'color','b','LineStyle','-','LineWidth',lw)
-text(2.3,0.2,['$k=$' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
+text(2.3,0.2,['$k = $ ' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
 
 ktuning=3; 
 % with k=3 bdp= 0.0933 eff=0.9052
@@ -32,7 +32,7 @@ maxrhoHYPk3=max(rhoHYPk3);
 rhoHYPk3=rhoHYPk3/maxrhoHYPk3;
 
 plot(x,rhoHYPk3,'color','k','LineStyle','--','LineWidth',lw)
-text(0,0.8,['$k=$' num2str(ktuning)],'Color','k','FontSize',FontSize,'HorizontalAlignment','center','Interpreter','latex')
+text(0,0.8,['$k = $ ' num2str(ktuning)],'Color','k','FontSize',FontSize,'HorizontalAlignment','center','Interpreter','latex')
 xlabel('$u$','Interpreter','Latex','FontSize',FontSize)
 ylabel('$\rho(u,c=6,k) $','Interpreter','Latex','FontSize',FontSize)
 
@@ -52,7 +52,7 @@ ktuning=5;
 psiHYP=HYPpsi(x,[ctuning,ktuning]);
 psiHYP=psiHYP/maxrhoHYPk5;
 plot(x,psiHYP,'color','b','LineStyle','-','LineWidth',lw)
-text(6,0.2,['$k$=' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
+text(6,0.2,['$k$ = ' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
 xlabel('$u$','Interpreter','Latex','FontSize',FontSize)
 ylabel('$\psi(u,c=6,k) $','Interpreter','Latex','FontSize',FontSize)
 %     text(ctuning,-0.1,'c','FontSize',14)
@@ -63,7 +63,7 @@ psiHYP=HYPpsi(x,[ctuning,ktuning]);
 psiHYP=psiHYP/maxrhoHYPk3;
 
 plot(x,psiHYP,'color','k','LineStyle','--','LineWidth',lw)
-text(1,-0.1,['$k$=' num2str(ktuning)],'Color','k','FontSize',FontSize,'Interpreter','latex')
+text(1,-0.1,['$k$ = ' num2str(ktuning)],'Color','k','FontSize',FontSize,'Interpreter','latex')
 
 
 stem(ctuning,0,'LineWidth',1,'LineStyle',':','Color','r')
@@ -88,7 +88,7 @@ rhoHYPk5=HYPrho(x,[ctuning,ktuning]);
 maxrhoHYPk5=max(rhoHYPk5);
 rhoHYPk5=rhoHYPk5/maxrhoHYPk5;
 plot(x,rhoHYPk5,'color','b','LineStyle','-','LineWidth',lw)
-text(1.2,0.2,['$k=$' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
+text(1.2,0.2,['$k = $ ' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
 
 ktuning=3; % with k=3 bdp= 0.4767 eff=0.3324
 % [bdp,eff]=HYPc(ctuning,1,'k',ktuning)
@@ -97,7 +97,7 @@ maxrhoHYPk3=max(rhoHYPk3);
 rhoHYPk3=rhoHYPk3/maxrhoHYPk3;
 
 plot(x,rhoHYPk3,'color','k','LineStyle','--','LineWidth',lw)
-text(0,0.95,['$k=$' num2str(ktuning)],'Color','k','FontSize',FontSize,'HorizontalAlignment','center','Interpreter','latex')
+text(0,0.95,['$k = $ ' num2str(ktuning)],'Color','k','FontSize',FontSize,'HorizontalAlignment','center','Interpreter','latex')
 xlabel('$u$','Interpreter','Latex','FontSize',FontSize)
 ylabel(['$\rho(u,c=' num2str(ctuning) ',k) $'],'Interpreter','Latex','FontSize',14)
 
@@ -117,7 +117,7 @@ psiHYP=psiHYP/maxrhoHYPk5;
 plot(x,psiHYP,'color','b','LineStyle','-','LineWidth',lw)
 xlabel('$u$','Interpreter','Latex','FontSize',14)
 ylabel(['$\psi(u,c=' num2str(ctuning) ',k) $'],'Interpreter','Latex','FontSize',14)
-text(2.2,0.5,['$k=$' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
+text(2.2,0.5,['$k = $ ' num2str(ktuning)],'Color','b','FontSize',FontSize,'Interpreter','latex')
 
 
 hold('on')
@@ -127,7 +127,7 @@ psiHYP=psiHYP/maxrhoHYPk3;
 plot(x,psiHYP,'color','k','LineStyle','--','LineWidth',lw)
 stem(ctuning,0,'LineWidth',1,'LineStyle',':','Color','r')
 stem(-ctuning,0,'LineWidth',1,'LineStyle',':','Color','r')
-text(1,-0.5,['$k$=' num2str(ktuning)],'Color','k','FontSize',FontSize,'Interpreter','latex')
+text(1,-0.5,['$k $ = ' num2str(ktuning)],'Color','k','FontSize',FontSize,'Interpreter','latex')
 
 ax=axis;
 %ylim([ax(3)-0.001 ax(4)+0.001])
