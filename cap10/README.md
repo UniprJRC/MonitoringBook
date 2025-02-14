@@ -28,6 +28,7 @@ With only seven explanatory variables, we monitor LS diagnostics, detect outlier
 
 [Analysis of the modified customer loyalty data (Section 10.5)](https://youtu.be/YT8exrmVpdg)
 
+[Analysis of the NCI 60 cancer cell panel data (Section 10.6)](https://youtu.be/1RF3wj1Ml8Y)
 
 <hr>
 
