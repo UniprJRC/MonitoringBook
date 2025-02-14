@@ -1,7 +1,7 @@
 %% NCI 60 Cancer Cell Panel Data.
 %
 % This file creates Figures  10.47-10.62
-% and Tables 10.8-10.10.
+% and Tables 10.9-10.11.
 
 %% Beginning of code
 close all
@@ -19,21 +19,26 @@ Xytable.Properties.VariableNames(1:end-1)=nameXnew;
 
 y=Xytable.y;
 n=length(y);
+% Xtable=
 X=Xytable{:,1:end-1};
 
 prin=0;
 
-%% Create Table 10.8
+%% Create Table 10.9
 namesTab=["Original NCI name" "Regression variable"];
 Tab108=array2table([nameX,nameXnew],"VariableNames",namesTab);
 disp(Tab108)
 
 
-%% Create Table 10.9
+%% Create Table 10.10
 % Standard regression with all variables
 mdlyall=fitlm(Xytable);
-disp('Table 10.9')
+disp('Table 10.10')
 disp(mdlyall)
+
+%% Stepwise regression
+disp("Stepwise regression")
+stepwiselm(Xytable)
 
 %% Create Figure 10.47
 %  outlier detection
@@ -96,7 +101,7 @@ fground.Color={'r'};
 fground.flabstep=58;
 bground='';
 
-resfwdplot(outFS,'datatooltip','','fground',fground, ...
+resfwdplot(outFS,'datatooltip',1,'fground',fground, ...
     'bground',bground)
 if prin==1
     % print to postscript
@@ -107,6 +112,8 @@ else
 end
 
 %% Create Figure 10.50
+% monitoring plot of added variable 𝑡-statistics for all
+% observations. 
 % FSRaddt in the model without the interactions
 figure
 outADDt=FSRaddt(y,X,'plots',1,'nsamp',10000);
@@ -122,6 +129,10 @@ end
 
 %% Create Figure 10.51
 % FSRaddt after deleting the outliers
+% The trajectories, not only that for $x_7$,
+% are now well-behaved.
+% It seems that of the seven variables, 
+% $x_3$ is now not significant.
 figure
 FSRaddt(yg,Xg,'plots',1);
 
@@ -150,7 +161,7 @@ end
 
 %% Create Figure 10.53
 % Create fanplotori (bottom panel)
-% pos and neg for 0.75
+% pos and neg for 0.9
 lasel=0.9;
 ylimy1=5;
 outpn=FSRfan(y,X,'nsamp',100000,'la',lasel,'family','YJpn','plots',1,'init',round(nini));
@@ -211,14 +222,14 @@ fig=findobj(0,'tag','pl_R2c');
 close(fig(1))
 
 
-%% Create Table 10.10
+%% Create Table 10.11
 % ANOVA table after removing x3 and the 5 outliers
 mdlysel=stepwiselm(X,y,'Exclude',outf.outliers);
-disp('Table 10.10')
+disp('Table 10.11')
 disp(mdlysel)
 
 
-%% Create Figure
+%% Create Figure 10.56
 % Robust model selection using Cp
 [Cpms]=FSRms(yg,Xg,'smallpint',3:7,'nsamp',10000);
 % Candlestick plot
@@ -251,11 +262,14 @@ pl_tX=findobj(0, 'type', 'figure','tag','pl_tX');
 close(pl_tX(1))
 drawnow
 
+%% Find Adjusted R2 using AVAS  transformed X and y
+disp(fitlm(outAV.tX,outAV.ty))
 
 %% Create Figures 10.58 and 10.59
 % RAVAS model selection with monotonicity constraint in X
 outMSm=avasms(y,X,'l',3*ones(size(X,2),1),'plots',0);
 
+% See which options are found for the best model
 % avasmsplot(outMSm)
 
 j=1;
@@ -302,7 +316,8 @@ end
 
 
 %% Create Figure  10.61
-% Robust model selection using Cp (removing the 4 outliers)
+% Robust model selection using Cp 
+% (removing the 4 outliers)
 [Cpms1]=FSRms(outm.ty(selRAVAS),outm.tX(selRAVAS,:));
 figure
 cdsplot(Cpms1);
