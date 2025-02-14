@@ -141,7 +141,7 @@ end
 pl_tX=findobj(0, 'type', 'figure','tag','pl_tX');
 figure(pl_tX(1))
 if prin ==1
-    print -depsc figs\modCL10.eps;
+    print -depsc modCL10.eps;
 else
     sgtitle('Figure 10.44')
     set(gcf,"Name",'Figure 10.44')
@@ -183,7 +183,7 @@ close(figure(pl_tX(1)))
 
 group=ones(length(y),1);
 group(out.outliers)=2;
-yXplot(out.ty,out.tX,'nameX',nameX,'group',group)
+yXplot(out.ty,out.tX,'nameX',nameX,'group',group);
 if prin ==1
     print -depsc modCL12.eps;
 else
