@@ -20,6 +20,9 @@ prin=0;
 [Cpms]=FSRms(y,X,'labels',labels,'smallpint',5:9);
 % Candlestick plot
 cdsplot(Cpms);
+% Use option cpbrush for brushing the cds plot
+% cdsplot(Cpms,'cpbrush',1);
+
 ylim([-1 45])
 if prin==1
     % print to postscript
@@ -40,6 +43,8 @@ labels={'Time','1','2','3','4','5','6','7','8'};
 outms=FSRms(y,X,'labels',labels,'smallpint',5:9);
 figure
 cdsplot(outms)
+% Use option cpbrush for brushing the cds plot
+% cdsplot(outms,'cpbrush',1);
 
 if prin==1
     % print to postscript
