@@ -1,4 +1,4 @@
-%% Sensistivity curve for the Income data.
+%% Sensitivity curve for the Income data.
 %
 % This file creates Figure 2.1.
 
