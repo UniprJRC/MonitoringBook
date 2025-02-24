@@ -37,6 +37,10 @@ R(5,5)=.6;
 R=inv(R);
 bayes.R=R;
 
+%% Create initial yXplot
+% Not given in the book
+% yXplot(y,X)
+
 %% Create Figures 8.1 and 8.4
 
 outBA=FSRB(y,X,'bayes',bayes', 'plots',1,'xlim',[280 n]);
