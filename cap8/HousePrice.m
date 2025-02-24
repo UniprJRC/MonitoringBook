@@ -1,5 +1,6 @@
 %% Windsor House Price data.
-% This file creates Figures 8.1-8.7.
+% This file creates Figures 8.1-8.7
+% and Table 8.1
 
 %% Beginning of code
 prin=0;
@@ -7,15 +8,18 @@ prin=0;
 load hprice.txt;
 
 % setup parameters
-n=size(hprice,1);
+
 y=hprice(:,1);
 X=hprice(:,2:5);
 
+n=size(hprice,1);
+p=size(X,2)+1;
+
 bayes=struct;
-n0=5;
+n0=6;
 bayes.n0=n0;
 
-% set \beta components
+% beta prior setting
 beta0=zeros(5,1);
 beta0(2,1)=10;
 beta0(3,1)=5000;
@@ -23,7 +27,7 @@ beta0(4,1)=10000;
 beta0(5,1)=10000;
 bayes.beta0=beta0;
 
-% \tau
+% tau0 prior setting
 s02=1/4.0e-8;
 tau0=1/s02;
 bayes.tau0=tau0;
@@ -34,6 +38,7 @@ R(2,2)=6e-7;
 R(3,3)=.15;
 R(4,4)=.6;
 R(5,5)=.6;
+diagR=diag(R);
 R=inv(R);
 bayes.R=R;
 
@@ -41,21 +46,26 @@ bayes.R=R;
 % Not given in the book
 % yXplot(y,X)
 
-%% Create Figures 8.1 and 8.4
+%% Create Table 8.1
+% Windsor House Price data: prior and least squares estimates of parameters
 
-outBA=FSRB(y,X,'bayes',bayes', 'plots',1,'xlim',[280 n]);
-dout=n-length(outBA.ListOut);
+betaLS=regstats(y,X,"linear",{'beta', 'mse'});
+betaOLS=betaLS.beta;
+tauOLS=1/(betaLS.mse*(n-p)/n);
+
+T1=[[beta0; tau0], [diagR; n0],  [betaOLS; tauOLS]];
+nam=["beta"+(0:4) "tau"];
+T1table=array2table(T1,'RowNames',nam,'VariableNames',["mean" "V0jj" "Least squares"]);
+disp('Table 8.1')
+disp(T1table)
+
+%% Create Figure 8.1 
+
+outFSRB=FSRB(y,X,'bayes',bayes', 'plots',1,'xlim',[280 n]);
+dout=n-length(outFSRB.ListOut);
 
 fig=findobj(0,'tag','fsr_yXplot');
-figure(fig(1))
-set(gcf,'Tag','fsr_yXplot81')
-
-if prin ==1
-    print -depsc h4.eps;
-else
-    set(gcf,'Name', 'Figure 8.4');
-    sgtitle('Figure 8.4')
-end
+delete(fig(1))
 
 fig=findobj(0,'tag','pl_fsr');
 figure(fig(1))
@@ -234,6 +244,10 @@ end
 
 drawnow
 
+%% Figure 8.4 will be created at the end of the file
+% Note that Figure 8.4  is created later because we need both the output of FSR
+% (frequentist forward search) and FSRB (Bayesian forward search)
+
 %% Create Figure 8.5 (frequentist analysis)
 % Monitoring of 95 per cent and 99 per cent confidence intervals
 % of beta and sigma2
@@ -317,6 +331,7 @@ end
 
 drawnow
 
+
 %% Create Figure 8.6
 figure
 n0=250;
@@ -344,6 +359,25 @@ if prin ==1
 else
     set(gcf,'Name', 'Figure 8.7');
     sgtitle('Figure 8.7')
+end
+
+
+%% Create Figure 8.4
+% Note that plot is created later because we need both the output of FSR
+% (frequentist forward search) and FSRB (Bayesian forward search)
+group=ones(n,1);
+commonOutliers=intersect(outFSR.outliers,outFSRB.outliers);
+onlyFSRB=setdiff(outFSRB.outliers,outFSR.outliers);
+group(commonOutliers)=2;
+group(onlyFSRB)=3;
+yXplot(y,X,'group',group)
+legend(["Normal observations" "Outliers found both by FSR and FSRB" "Outlier found just by FSRB"])
+
+if prin ==1
+    print -depsc h4.eps;
+else
+    set(gcf,'Name', 'Figure 8.4');
+    sgtitle('Figure 8.4')
 end
 %InsideREADME
 
