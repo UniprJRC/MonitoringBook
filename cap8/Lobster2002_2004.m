@@ -234,7 +234,7 @@ n02gin03gi=n02gi+n03gi;
 % res = residuals for g+i units using b0203g
 res=y02giy03gi-X02giX03gi*b0203g;
 S203gi=sum(res.^2)/(n02gin03gi-2);
-% estimate of tau is based on g + i units
+% estimate of tau0 is based on g + i units
 tau0=1/S203gi;
 bayes.tau0=tau0;
 
