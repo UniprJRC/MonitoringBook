@@ -56,7 +56,7 @@ drawnow
 
 if prin==1
     % print to postscript
-    print -depsc figs\MPGauto.eps;
+    print -depsc MPGauto.eps;
 else
     sgtitle('Figure A.77')
     set(gcf,'Name','Figure A.77')
