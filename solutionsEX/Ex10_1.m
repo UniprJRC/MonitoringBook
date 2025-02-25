@@ -11,7 +11,7 @@ prin=0;
 % Find the 4 largest frequencies.
 TA=tabulateFS(y);
 TAsor=sortrows(TA,2,'descend');
-disp('4 highest frequemcies')
+disp('4 highest frequencies')
 disp(TAsor(1:4,:))
 
 Gender=dummyvar(Y(:,4));
@@ -38,6 +38,14 @@ else
     set(gcf,"Name",'Figure A.67 (left panel)')
 end
 
+%% Transform the response
+la=0.7;
+ytra=normYJ(y,[],la,'inverse',false);
+
+
+%% Variable selection in the transformed space
+disp('Output from variable selection (trasnformed scale)')
+disp(stepwiselm(X,ytra))
 
 %% Create right panel of Figure A.67
 % Fan plot positive and negative la=0.7
@@ -53,13 +61,9 @@ else
     set(gcf,"Name",'Figure A.67 (right panel)')
 end
 
-%% Transform the response
-la=0.7;
-ytra=normYJ(y,[],la,'inverse',false);
+out=FSRfan(y,X(:,9),'family','YJpn','plots',1,'init',round(n/2),'la',0.7);
 
-%% Variable selection in the transformed space
-disp('Output from variable selection (transformed scale)')
-disp(stepwiselm(X,ytra))
+
 
 
 %% Create Figure A.68
@@ -98,6 +102,20 @@ if prin==1
 else
     sgtitle('Figure A.69')
     set(gcf,"Name",'Figure A.69')
+end
+
+%% Create Figure A.69 (with violinplot)
+figure
+subplot(2,2,1)
+violinplot(X(:,9),y)
+subplot(2,2,2)
+violinplot(X(:,9),ytra)
+if prin==1
+    % print to postscript
+    print -depsc x3.eps;
+else
+    sgtitle('Figure not given in the book')
+    % set(gcf,"Name",'Figure A.69')
 end
 
 %% FS on the original and transformed scale
