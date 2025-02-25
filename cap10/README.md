@@ -2,7 +2,7 @@
 
 
 ---
-Atkinson,A.C., Riani,M., Corbellini,A., Perrotta D., and Todorov,V. (2024), "Applied Robust Statistics through the Monitoring Approach: 
+Atkinson,A.C., Riani,M., Corbellini,A., Perrotta D., and Todorov,V. (2025), "Applied Robust Statistics through the Monitoring Approach: 
 Applications in Regression", Heidelberg: Springer Nature.
 
 # Abstract

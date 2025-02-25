@@ -2,7 +2,7 @@
 
 
 ---
-Atkinson,A.C., Riani,M., Corbellini,A., Perrotta D., and Todorov,V. (2024), "Applied Robust Statistics through the Monitoring Approach: 
+Atkinson,A.C., Riani,M., Corbellini,A., Perrotta D., and Todorov,V. (2025), "Applied Robust Statistics through the Monitoring Approach: 
 Applications in Regression", Heidelberg: Springer Nature.
 
 # Abstract
@@ -10,10 +10,11 @@ Applications in Regression", Heidelberg: Springer Nature.
  The purpose of this chapter is to introduce and discuss the tools, such as the influence function, used to evaluate the properties of the various estimators of location and scale in univariate samples. We focus on M-estimators, that is estimators of maximum  likelihood type, in which the estimating equations for least squares are modified by a $\rho$ function that downweights large residuals. We consider the estimation of location and scale and the simultaneous estimation of both parameters and provide algorithms.  In 2.3.2  we show the properties of the $\rho$ functions and their derivatives, which are important in the algorithms for estimation; all functions depend on parameters which specify the resulting values of *bdp* and *eff*. In 2.4.1.1  we compare the estimators in terms of *bdp* and *eff*, varying the parameters. These asymptotic calculations of *bdp* and *eff* for the estimators show that, because of the relationship between the two properties, there is surprisingly little difference between the performance of the $\rho$ functions. The chapter concludes with some small-sample comparisons of the estimators and consideration of multiple solutions to numerical algorithms for parameter estimation
 
 
+# YouTube videos  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100">
 
->>> <a href="https://youtu.be/4wP0rbELIjE?si=XETW6XZM5HlIPu4o"> Introduction to M-Estimation for Univariate Samples PART I <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
+>>> <a href="https://youtu.be/4wP0rbELIjE?si=XETW6XZM5HlIPu4o"> Introduction to M-Estimation for Univariate Samples PART I </a>
 
->>>  <a href="https://youtu.be/g_mvTRs4LjY?si=4s4folepyrN5nJ1v"> Introduction to M-Estimation for Univariate Samples PART II <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
+>>>  <a href="https://youtu.be/g_mvTRs4LjY?si=4s4folepyrN5nJ1v"> Introduction to M-Estimation for Univariate Samples PART II </a>
 <br>
 
 

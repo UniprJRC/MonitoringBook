@@ -2,7 +2,7 @@
 
 
 ---
-Atkinson,A.C., Riani,M., Corbellini,A., Perrotta D., and Todorov,V. (2024), "Applied Robust Statistics through the Monitoring Approach: 
+Atkinson,A.C., Riani,M., Corbellini,A., Perrotta D., and Todorov,V. (2025), "Applied Robust Statistics through the Monitoring Approach: 
 Applications in Regression", Heidelberg: Springer Nature.
 
 # Abstract
@@ -11,9 +11,10 @@ Applications in Regression", Heidelberg: Springer Nature.
 
 # YouTube videos  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100">
 
-[Non parametric transformation of the response (PART I)](https://youtu.be/bvOWwGmxRko)
 
-[Non parametric transformation of the response (PART II)](https://youtu.be/bvOWwGmxRko)
+>>> <a href="https://youtu.be/Q7D3HioOxHQ?si=iC5gNyOYEvtOlkbp"> Non parametric transformations (part I) </a>
+
+>>> <a href="https://youtu.be/bvOWwGmxRko?si=m0FtPkrlU4ctTizY"> Non parametric transformations (part II) </a>
 
 
 # Code to reproduce Figures and Tables in this Chapter

@@ -12,8 +12,7 @@ The approach is visual, being based on the interpretation of fan plots. Section 
 
 # YouTube videos  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100">
 
-[Parametric transformation of the response](https://youtu.be/KOPYSeNgKPM)
-
+>>> <a href="https://youtu.be/KOPYSeNgKPM?si=Ealxz6k738mmp0Oy"> Transformation of the response </a>
 
 
 # Code to reproduce Figures and Tables in this Chapter
