@@ -28,7 +28,7 @@ Additional YouTube videos can be found inside the individual chapters.
 >>> <a href="https://youtu.be/jSLNEa5VTN4?si=bPYYXl1pqrdHu2Jt"> Introduction and the Grand Plan <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 <br>
 
-2. **Introduction to M-Estimation for Univariate Samples**[[open dir](cap2/README.md)]  
+2. **Introduction to M-Estimation for Univariate Samples** [[open dir](cap2/README.md)]  
 >>> <a href="https://youtu.be/4wP0rbELIjE?si=XETW6XZM5HlIPu4o"> Introduction to M-Estimation for Univariate Samples PART I <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
 >>>  <a href="https://youtu.be/g_mvTRs4LjY?si=4s4folepyrN5nJ1v"> Introduction to M-Estimation for Univariate Samples PART II <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
@@ -47,13 +47,13 @@ Additional YouTube videos can be found inside the individual chapters.
 >>> <a href="https://youtu.be/z-cCFCYiwpU?si=vPw50MDypy52keSW"> Analysis of the bank data (Section 4.10) <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
 
-5.  Practical Comparison of the Different Estimators [[open dir](cap5/README.md)]  
+5.  **Practical Comparison of the Different Estimators** [[open dir](cap5/README.md)]  
 
 6.  Transformations  [[open dir](cap6/README.md)]  
 >>> <a href="https://youtu.be/KOPYSeNgKPM?si=Ealxz6k738mmp0Oy"> Transformation of the response <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
 
-7.  Non-parametric Regression  [[open dir](cap7/README.md)] 
+7.  **Non-parametric Regression**  [[open dir](cap7/README.md)] 
 
 >>> <a href="https://youtu.be/Q7D3HioOxHQ?si=iC5gNyOYEvtOlkbp"> Non parametric transformations (part I) <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
@@ -61,19 +61,19 @@ Additional YouTube videos can be found inside the individual chapters.
 
 
 
-8.   Extensions of the Multiple Regression Model   [[open dir](cap8/README.md)]  
+8.   **Extensions of the Multiple Regression Model**   [[open dir](cap8/README.md)]  
 >>> <a href="https://youtu.be/Op_yXrdhiDg?si=RVkitOUWg5EAGRuu"> Robust Bayesian regression (Sections 8.1- 8.3) <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
 >>> <a href="https://youtu.be/QLnSTc5g19A?si=tP0L3BwOLrvUypxX"> Heteroskedastic regression (Section 8.4) <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
 
 
-9.    Model selection    [[open dir](cap9/README.md)]
+9.    **Model selection**    [[open dir](cap9/README.md)]
 
 >>> <a href="https://youtu.be/xFNGnEgDam4?si=l5WOOcGj6L4Hy9u-"> Variable Selection Mallow's Cp and the generalized candlestick plot (Section 9.3) <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
 
-10.   Some Robust Data Analyses    [[open dir](cap10/README.md)]
+10.   **Some Robust Data Analyses**    [[open dir](cap10/README.md)]
 
 >>> <a href="https://youtu.be/wj3k2-Ca-f4?si=eX5OyqddUGxTpkdP"> Income data 1: regression analysis (Section 10.2) <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
@@ -87,7 +87,7 @@ Additional YouTube videos can be found inside the individual chapters.
 
 
 
-Appendix.   Solution to the Exercises [[open dir](solutionsEX/README.md)]
+**Appendix.   Solution to the Exercises** [[open dir](solutionsEX/README.md)]
 
 >>> <a href="https://youtu.be/2TFwB-Rf3G8?si=iRNL0MurPz5leB_Z"> Analysis of the heart rate data (Exercise 10.1) <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
