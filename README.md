@@ -49,7 +49,7 @@ Additional YouTube videos can be found inside the individual chapters.
 
 5.  **Practical Comparison of the Different Estimators** [[open dir](cap5/README.md)]  
 
-6.  Transformations  [[open dir](cap6/README.md)]  
+6.  **Transformations**  [[open dir](cap6/README.md)]  
 >>> <a href="https://youtu.be/KOPYSeNgKPM?si=Ealxz6k738mmp0Oy"> Transformation of the response <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="100"></a>
 
 
