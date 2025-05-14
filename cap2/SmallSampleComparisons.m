@@ -280,7 +280,7 @@ if addcaption ==true
     end
 end
 
-% now we  repeat with point wise contamination
+% now we  repeat with point mass contamination
 shiftcontamination =0;
 subplot(2,1,2)
 
@@ -319,6 +319,7 @@ for j=1:nsimul
 end
 
 hold('on')
+% Order rows using TB
 Loc=sortrows(Loc,1);
 ls={'-' '--' ':' '-.' '-'};
 for i=1:5
@@ -357,8 +358,8 @@ end
 
 truescale=2;
 trueloc=5;
-shiftcontamination =0;
-fraccontamination=0.30;
+shiftcontamination = 0;
+fraccontamination = 0.30;
 shift=10;
 n=200;
 rng(1000)
