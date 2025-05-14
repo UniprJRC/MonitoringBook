@@ -41,6 +41,7 @@ databrush.RemoveLabels='off'; % Do not remove labels after selection
 
 disp('Brush the monitoring residual plot')
 resfwdplot(outTB,'databrush',databrush,'datatooltip','','standard',standard)
+
 if prin==1
     % print to postscript
     print -depsc HDtbexeres6.eps;
