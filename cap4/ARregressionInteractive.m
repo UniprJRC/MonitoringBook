@@ -78,6 +78,16 @@ else
     set(gcf,"Name",'Figure 4.14 (bottom)')
 end
 
+%% Resfwdplot shown as a movie (NOT SHOWN IN THE BOOK)edit 
+load('multiple_regression.txt');
+y=multiple_regression(:,4);
+X=multiple_regression(:,1:3);
+% LMS using 1000 subsamples
+[out]=LXS(y,X,'nsamp',10000);
+% Forward Search
+[out]=FSReda(y,X,out.bs);
+resfwdplot(out,'movieLength',5)
+
 
 %% Create Figure 4.13
 figure
