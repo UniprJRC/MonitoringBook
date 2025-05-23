@@ -45,3 +45,4 @@
 # Reclassify HTML files as MATLAB files
 *.html -linguist-detectable 
 *.xml  -linguist-detectable 
+*.ipynb -linguist-detectable
