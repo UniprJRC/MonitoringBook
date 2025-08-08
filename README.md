@@ -114,7 +114,7 @@ $$
     @book{ARCPT2024,  
     address = {UK},  
     author = {Atkinson, A. C. and Riani, M. and Corbellini, A. and Perrotta, D. and Todorov, V},  
-    isbn = {XXX-XXXXXX},   
+    isbn = {978-3-031-88364-4},   
     publisher = {Heidelberg: Springer Nature},  
     title = {Applied Robust Statistics through the Monitoring Approach, Applications in Regression},  
     year = {2025}  
