@@ -17,7 +17,7 @@ prin <- TRUE               # whether to print to PDF
 
 ## Set the working directory to the location where the input file will be found
 wd <- getwd()
-setwd("c:/Users/valen/OneDrive/Documents/GitHub/FigMonitoringBook/cap8/")
+setwd("c:/Users/valen/OneDrive/Documents/GitHub/MonitoringBook/cap8/")
 
 ## Load data: 
 ##  - dependent variable is life expectancy (life_exp) from HDI

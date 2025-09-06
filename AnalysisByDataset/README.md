@@ -1,1 +1,18 @@
-# Analysis by dataset ---Atkinson,A.C., Riani,M., Corbellini,A., Perrotta D., and Todorov,V. (2025), Applied Robust Statistics through the Monitoring Approach, Heidelberg: Springer Nature.# In the book there are datasets which are used in different Chapters.Here you can find the complete analysis of these datasets# Code to reproduce Figures and Tables associated to particular datasets| FileName | Description | Open in MATLAB on line | Jupiter notebook |  |---|---|---|---|  |ARregressionData.m|This file is referred to dataset AR regression data<br/> Creates all Figures and tables associated with dataset AR regression data. See Table A.2 in Appendix A to see where this dataset has been used inside the book|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/FigMonitoringBook&file=AnalysisByDataset//ARregressionData.m)| [[ipynb](ARregressionData.ipynb)]|Income1.m|This file is referred to dataset Income1<br/> Creates all Figures and tables associated with dataset Income1, See Table A.2 in Appendix A to see where this dataset has been used inside the book|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/FigMonitoringBook&file=AnalysisByDataset//Income1.m)| [[ipynb](Income1.ipynb)]|Income2.m|This file is referred to dataset Income2<br/> Creates all Figures and tables associated with dataset Income2 See Table A.2 in Appendix A to see where this dataset has been used inside the book|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/FigMonitoringBook&file=AnalysisByDataset//Income2.m)| [[ipynb](Income2.ipynb)]
+# Analysis by dataset MonitoringBookMonitoringBookMonitoringBook
+
+
+---
+Atkinson,A.C., Riani,M., Corbellini,A., Perrotta D., and Todorov,V. (2025), Applied Robust Statistics through the Monitoring Approach, Heidelberg: Springer Nature.
+
+# In the book there are datasets which are used in different Chapters.
+
+Here you can find the complete analysis of these datasets
+
+# Code to reproduce Figures and Tables associated to particular datasets
+
+
+| FileName | Description | Open in MATLAB on line | Jupiter notebook | 
+ |---|---|---|---| 
+ |ARregressionData.m|This file is referred to dataset AR regression data<br/> Creates all Figures and tables associated with dataset AR regression data. See Table A.2 in Appendix A to see where this dataset has been used inside the book|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/MonitoringBook&file=AnalysisByDataset//ARregressionData.m)| [[ipynb](ARregressionData.ipynb)]
+|Income1.m|This file is referred to dataset Income1<br/> Creates all Figures and tables associated with dataset Income1, See Table A.2 in Appendix A to see where this dataset has been used inside the book|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/MonitoringBook&file=AnalysisByDataset//Income1.m)| [[ipynb](Income1.ipynb)]
+|Income2.m|This file is referred to dataset Income2<br/> Creates all Figures and tables associated with dataset Income2 See Table A.2 in Appendix A to see where this dataset has been used inside the book|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/MonitoringBook&file=AnalysisByDataset//Income2.m)| [[ipynb](Income2.ipynb)]

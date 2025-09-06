@@ -12,7 +12,7 @@ prin <- FALSE               # whether to print to PDF
 
 ## Set the working directory to the location where the input file will be found
 wd <- getwd()
-setwd("c:/Users/valen/OneDrive/Documents/GitHub/FigMonitoringBook/cap8/")
+setwd("c:/Users/valen/OneDrive/Documents/GitHub/MonitoringBook/cap8/")
 
 theme_transparent <- function(base_size = rel(3.5), base_family = "") {
     ggplot2::theme_bw(base_size) +

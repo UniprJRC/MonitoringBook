@@ -66,7 +66,7 @@ In order to install the MATLAB kernel, in the python (anaconda) powershell you n
 python -m pip install jupyter-matlab-proxy
 ```
 
-After typing `jupyter notebook` in the powershell if you have navigated into the folder FigMonitoringBook you should see inside localhost the subfolders of the book and in the background the terminal you used to launch the instruction jupiter notebook and from the button New you should be able to see the MATLAB kernel option
+After typing `jupyter notebook` in the powershell if you have navigated into the folder MonitoringBook you should see inside localhost the subfolders of the book and in the background the terminal you used to launch the instruction jupiter notebook and from the button New you should be able to see the MATLAB kernel option
 
 
 ![](./images/jupyter.jpg)

@@ -19,6 +19,6 @@ Section 9.4.1 describes two regularizations: the LASSO estimates $\beta$ as the 
 
 | FileName | Description | Open in MATLAB on line | Jupiter notebook | 
  |---|---|---|---| 
- |Cement.m|Cement data.<br/> This file creates Tables 9.1 and 9.2.|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/FigMonitoringBook&file=cap9//Cement.m)| [[ipynb](Cement.ipynb)]
+ |Cement.m|Cement data.<br/> This file creates Tables 9.1 and 9.2.|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/MonitoringBook&file=cap9//Cement.m)| [[ipynb](Cement.ipynb)]
 |NCI60sparseLTS.R|NIC60 data:  Least Absolute Shrinkage and Selection Operator (LASSO)<br/> This file creates Figures 9.3, 9.4, 9.5, 9.6 and 9.7.|[Open](NCI60sparseLTS.R)
-|Ozone.m|Ozone data (reduced and full).<br/> This file creates Figures 9.1 and 9.2|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/FigMonitoringBook&file=cap9//Ozone.m)| [[ipynb](Ozone.ipynb)]
+|Ozone.m|Ozone data (reduced and full).<br/> This file creates Figures 9.1 and 9.2|[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=UniprJRC/MonitoringBook&file=cap9//Ozone.m)| [[ipynb](Ozone.ipynb)]
