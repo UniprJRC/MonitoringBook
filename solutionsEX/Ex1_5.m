@@ -4,6 +4,7 @@
 
 %% Beginning of code
 close all
+prin=0;
 theta=3;
 lw=2;
 x=-8:0.01:10;

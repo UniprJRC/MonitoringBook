@@ -91,6 +91,7 @@ title('Figure not given in the book')
 % Var(sample mean)/Var(sample median)
 % nu = degrees of freedom of Student T
 ij=0;
+nuall=2.1:0.1:10;
 for nu=nuall
     ij=ij+1;
     varmedian=1/(2*tpdf(0,nu))^2;

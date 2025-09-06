@@ -3,7 +3,7 @@
 % This file creates Figure A.5-A.6
 % and Tables A.3-A.5
 
-%% MR (Multiple regression data): Forward EDA datatooltip which monitors bsb
+%% MR (Multiple regression data): data loading
 load('multiple_regression.txt');
 y=multiple_regression(:,4);
 X=multiple_regression(:,1:3);
