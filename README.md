@@ -101,12 +101,20 @@ complete analysis of these datasets
   Analysis by dataset    [[open dir](AnalysisByDataset/README.md)]
 
 # Links
-$$
-Springer Verlag
-$$
-$$
+
+
+Springer Verlag (OPEN ACCESS BOOK)
+
+https://link.springer.com/book/10.1007/978-3-031-88365-1
+
+
+
+
 Amazon
-$$
+
+https://www.amazon.co.uk/s?k=monitoring+robust+regression&crid=L3Q0QAO3K0QG&sprefix=monitoring+robust+regression%2Caps%2C226&ref=nb_sb_noss
+
+
 
 
 
