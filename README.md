@@ -119,9 +119,9 @@ https://www.amazon.co.uk/s?k=monitoring+robust+regression&crid=L3Q0QAO3K0QG&spre
 
 
 
-    @book{ARCPT2024,  
+    @book{ARCPT2025,  
     address = {UK},  
-    author = {Atkinson, A. C. and Riani, M. and Corbellini, A. and Perrotta, D. and Todorov, V},  
+    author = {Atkinson, A. C. and Riani, M. and Corbellini, A. and Perrotta, D. and Todorov, V.},  
     isbn = {978-3-031-88364-4},   
     publisher = {Heidelberg: Springer Nature},  
     title = {Applied Robust Statistics through the Monitoring Approach, Applications in Regression},  
